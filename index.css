@@ -1,6 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
-  background: #e8f0ae;
+  background: #171414;
 }
 
 .sidenav {
@@ -10,7 +10,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #DB8C4C;
   overflow-x: hidden;
   padding-top: 20px;
   margin-right: 20px;
@@ -20,8 +20,8 @@ body {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: yellow;
+  font-size: 28px;
+  color: #560505;
   display: block;
 }
 
@@ -36,7 +36,7 @@ body {
   padding: 0px 10px;
 }
 h1{
-color: orange;
+color: #faa104;
  text-shadow: 2px 2px #FF0000;
  font-size: 50px;
 }
@@ -45,50 +45,77 @@ color: orange;
   font-size: 28px; 
   padding: 0px 10px;
   margin-left: 15%;
-  border: 2px dotted black;
+  border: 2px dotted orange;
+  color: white;
 }
 #about{
   margin-top: 15%;
+  color: white;
+  border: 2px dotted orange;
 }
-.Skills{
-  margin-top: 5%; 
+
+.container {
+  width: 50%;
+  background-color: black;
+  margin-bottom: 10px;
+
+}
+
+#Skills {
+  text-align: left;
+  padding-top: 30%;
+  padding-bottom: 5px;
+  color: white; 
+  margin-left: 15%; 
   font-size: 28px; 
-  padding: 0px 10px;
-  margin-left: 15%;
+  padding: 0px 20px;
+  border: 2px dotted orange;
 }
+
+.html {width: 60%; background-color: #04AA6D;}
+.css {width: 50%; background-color: #2196F3;}
+.js {width: 45%; background-color: #f44336;}
+.ps {width: 60%; background-color: #808080;}
 
 .Experience{
   margin-top: 10%; 
   font-size: 28px; 
   padding: 0px 10px;
   margin-left: 15%;
-  border: 2px dotted black;
+  border: 2px dotted orange;
+  color: white;
 }
 }
 .icon{
  margin-top: 2px;
  margin-left: 15%;
+ color: white;
 }
+
 .fa {
-   padding: 20px;
+  padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  
-
 }
 
 .fa:hover {
     opacity: 0.7;
 }
 
-
-
-
 .fa-linkedin {
   background: #007bb5;
+  color: white;
+}
+
+.Interest{
+  margin-top: 10%; 
+  font-size: 28px; 
+  padding: 0px 10px;
+  margin-left: 15%;
+  border: 2px dotted orange;
   color: white;
 }
 @media screen and (max-height: 450px) {
